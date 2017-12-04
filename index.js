@@ -31,11 +31,11 @@ settings.IOS_SPLASHES = [
   {name: 'ipad_landscape.png', width: 1024, height: 768},
   {name: 'ipad_landscape_2x.png', width: 2048, height: 1536},
 
-  {name: 'ipad_portrait_pro_10_5', width: 1668, height: 2224},
-  {name: 'ipad_landscape_pro_10_5', width: 2224, height: 1668},
+  {name: 'ipad_portrait_pro_10_5.png', width: 1668, height: 2224},
+  {name: 'ipad_landscape_pro_10_5.png', width: 2224, height: 1668},
 
-  {name: 'ipad_portrait_pro_12_9', width: 2048, height: 2732},
-  {name: 'ipad_landscape_pro_12_9', width: 2732, height: 2048},
+  {name: 'ipad_portrait_pro_12_9.png', width: 2048, height: 2732},
+  {name: 'ipad_landscape_pro_12_9.png', width: 2732, height: 2048},
 
   {name: 'iphone_2x.png', width: 640, height: 960}
 
