@@ -1,10 +1,10 @@
-var fs = require('fs');
-var path = require('path');
+var fs     = require('fs');
+var path   = require('path');
 var xml2js = require('xml2js');
-var ig = require('imagemagick');
+var ig     = require('imagemagick');
 var colors = require('colors');
-var _ = require('underscore');
-var Q = require('q');
+var _      = require('underscore');
+var Q      = require('q');
 var wrench = require('wrench');
 
 /**
@@ -98,7 +98,7 @@ var generateSplash = function (splash) {
     format: 'png',
     width: splash.width,
     height: splash.height
-  }, function (err, stdout, stderr) {
+  } , function(err, stdout, stderr){
     if (err) {
       deferred.reject(err);
     } else {
@@ -217,12 +217,12 @@ var getPlatforms = function () {
 };
 
 validSplashExists()
-  .then(getPlatforms)
-  .then(generateSplashes)
-  .catch(function (err) {
-    if (err) {
-      console.log(err);
-    }
-  }).then(function () {
+.then(getPlatforms)
+.then(generateSplashes)
+.catch(function (err) {
+  if (err) {
+    console.log(err);
+  }
+}).then(function () {
   console.log('');
 });
