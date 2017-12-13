@@ -18,26 +18,22 @@ settings.DESTINATION = 'resources/launch_screens/';
 settings.IOS_SPLASHES = [
 
   {name: 'iphone5.png', width: 640, height: 1136},
-  {name: 'iphone6.png', width: 750, height: 1334}, // iPhone 6-6s-7-8
+  {name: 'iphone6.png', width: 750, height: 1334},
   {name: 'iphone6p_portrait.png', width: 1242, height: 2208},
   {name: 'iphone6p_landscape.png', width: 2208, height: 1242},
-
-  {name: 'iphoneX_portrait.png', width: 1125, height: 2436},  // iPhone X
+  {name: 'iphoneX_portrait.png', width: 1125, height: 2436},
   {name: 'iphoneX_landscape.png', width: 2436, height: 1125},
-
-  {name: 'ipad_portrait.png', width: 768, height: 1024},
   {name: 'ipad_portrait_2x.png', width: 1536, height: 2048},
-
-  {name: 'ipad_landscape.png', width: 1024, height: 768},
   {name: 'ipad_landscape_2x.png', width: 2048, height: 1536},
-
   {name: 'ipad_portrait_pro_10_5.png', width: 1668, height: 2224},
   {name: 'ipad_landscape_pro_10_5.png', width: 2224, height: 1668},
-
   {name: 'ipad_portrait_pro_12_9.png', width: 2048, height: 2732},
   {name: 'ipad_landscape_pro_12_9.png', width: 2732, height: 2048},
 
-  {name: 'iphone_2x.png', width: 640, height: 960}
+  // Legacy
+  {name: 'iphone_2x.png', width: 640, height: 960},
+  {name: 'ipad_portrait.png', width: 768, height: 1024},
+  {name: 'ipad_landscape.png', width: 1024, height: 768}
 
 ];
 settings.ANDROID_SPLASHES = [
